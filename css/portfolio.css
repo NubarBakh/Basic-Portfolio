@@ -48,14 +48,14 @@
 
 .p2 {float: left; }
 .a, .b, .c, .d{
-     width: 250px;
+     width: 200px;
       margin: 30px;
 }
 
 .my{
     border: solid #dddddd;
     margin-top: 5% ; margin-left: 8%;
-    padding: 2%;
+    padding: 10px;
     width:50%;
     height:60%;
     background-color: #ffffff;
