@@ -1,0 +1,133 @@
+/*Header*/
+.h1{
+    background-color: #4aaaa5;
+    color: antiquewhite;
+    border:  #cccccc;
+    width: 20%; 
+    height: 40px;
+    padding: 25px 50px;
+    margin-left:  8%;
+    float: left;
+    margin-top: 0%;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif !important; }
+    
+
+.div{
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+    overflow: auto;
+    border: solid 3px #dddddd;}
+
+
+.li{ 
+    list-style-type: none;
+    text-align: right;
+    float:right;
+    display: inline-block;}
+
+
+.nav{
+    float: left; 
+    margin-right: 26px;}
+
+
+
+#about, #portfolio {
+    border-right: grey solid 1px;
+    padding-right: 13px;}
+
+
+
+
+
+ /*About me*/
+.about-me{
+    float: left;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 70px;}
+        
+
+
+
+.text{ 
+    display: inline-block;
+    color:gray;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    float: left;
+    margin: 0px;}
+
+
+
+.h2, .h3{
+         color: #4aaaa5;
+         font-family :   'Georgia', Times, Times New Roman, serif !important;}
+
+
+.about-me{
+               
+    margin-bottom: 70px;
+    border: solid #cccccc;
+    margin-top: 5% ; margin-left: 8%;
+    padding: 2%;
+    width:50%;
+    height: 70%;
+    background-color: white;
+    float: left;}
+         
+         
+.cat{
+    width: 200px;
+    float: left;
+    display: inline-block;}
+
+    
+    
+/*Body*/
+.body{
+       background-color: rgb(240, 240, 240);
+       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+       
+/*Connect with me*/  
+
+.socialmedia{
+    border: solid #cccccc;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    width: 15%;
+    float:left;}
+
+  
+.img{
+    height: 50px;
+   width: 50px;}  
+               
+               
+
+
+   
+/*Footer*/
+
+ .footer{
+        background-color: #666666;
+        clear: both;
+        text-align: center;
+        padding: 20px;
+        border-top: solid  #4aaaa5 6px;
+        color: #cccccc;}
+
+
+    
+
+        
+
+ 
+
+
+                
