@@ -2,6 +2,7 @@
 /*Header*/
 .h1{
     background-color: #4aaaa5;
+    font-size: 30px;
     color: antiquewhite;
     border:  #cccccc;
     width: 20%; 
@@ -11,7 +12,7 @@
     float: left;
     margin-top: 0%;
     text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif !important; }
+    font-family: 'Georgia', Times, Times New Roman, serif !important;}
     
 
 .header{
@@ -22,7 +23,8 @@
     overflow: auto;border: solid 3px #cccccc;}
 
 
-.li{ 
+.li{ padding-top: 30px; 
+    font-size: 20px;
     list-style-type: none;
     text-align: right;
     float:right;
@@ -47,6 +49,7 @@
 .p2 {float: left; }
 .a, .b, .c, .d{
      width: 300px;
+      margin: 30px;
 }
 
 .my{
@@ -89,23 +92,28 @@
     font-family :   'Georgia', Times, Times New Roman, serif !important;
     border-bottom: grey solid 2px;} 
 
+.h2{font-size: 40px;}
+
+.h3{font-size: 25px;}
+
 
 /*Connect with me*/  
 
 .socialmedia{
-    border: solid #cccccc;
+    border: solid #dddddd;
     background-color: white;
     margin-top: 5%;
     margin-left: 5%;
     padding: 2%;
-    width: 15%;
+    width: 200px; 
+    height: 150px;
     float:left;}
 
 
 
 .img{
-    height: 50px;
-    width: 50px;} 
+    height: 60px;
+    width: 60px;} 
 
 
 .connect{
