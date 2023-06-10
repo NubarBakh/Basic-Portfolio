@@ -48,7 +48,7 @@
 
 .p2 {float: left; }
 .a, .b, .c, .d{
-     width: 300px;
+     width: 250px;
       margin: 30px;
 }
 
@@ -57,7 +57,7 @@
     margin-top: 5% ; margin-left: 8%;
     padding: 2%;
     width:50%;
-    height: 70%;
+    height:60%;
     background-color: #ffffff;
     float: left;}
 
