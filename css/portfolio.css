@@ -12,72 +12,63 @@
     float: left;
     margin-top: 0%;
     text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif !important;}
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    margin-right: auto;}
     
 
 .header{
-    background-color: #ffffff;
     border: #cccccc 2px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0%;
+    top: 0%;
     width: 100%;
     height: 100px;
-    overflow: auto;border: solid 3px #cccccc;}
+    border: 3px solid #cccccc;
+    z-index: 2;}
 
 
-.li{ padding-top: 30px; 
-    font-size: 20px;
-    list-style-type: none;
-    text-align: right;
-    float:right;
-    display: inline-block;}
+    .li{padding-top: 30px;
+        font-size: 20px;
+        text-align: right;
+        text-decoration: none;
+        padding-right: 100px;}
+    
+    .clearfix::after{
+        content: "";
+        clear: both;
+        display: block;}
+    
+    .li li+li::before{content: "";
+    border-left: 1px solid grey;
+    margin-right: 20px;
+    height: 15px;
+    display: inline-block;
+    }
 
 
 .nav{
-    float: left; 
+    display: inline-block;
     margin-right: 26px;}
 
 
-#about, #portfolio {
-    border-right: grey solid 1px;
-    padding-right: 13px;}
-
+a{text-decoration: none;}
 
 
 
 /*My Portfolio*/
 
 
-.p2 {float: left; }
-.a, .b, .c, .d{
-     width: 200px;
-      margin: 30px;
-}
-
-.my{
-    border: solid #dddddd;
-    margin-top: 5% ; margin-left: 8%;
-    padding: 10px;
-    width:50%;
-    height:60%;
-    background-color: #ffffff;
-    float: left;}
-
- 
-
-.m{
-    display: inline-block;  float: left;}
+.myport{ margin-left: 150px;
+    background-color: #fff;
+width: 800px;
+display: block;
+border: solid #dddddd;
+margin-bottom: 100px;
+margin-top: 150px;
+float: left;}
 
 
-.e{float: right;}
-
-.ul{list-style-type: none;}
-
-.dv{ 
-    float:left;
-    height: 100%;
-    width: 100%;
-    margin-bottom: 70px; }
-
-            
 
           
 /*Body*/
@@ -90,11 +81,30 @@
 .h2, .h3{
     color: #4aaaa5;
     font-family :   'Georgia', Times, Times New Roman, serif !important;
-    border-bottom: grey solid 2px;} 
+    } 
 
-.h2{font-size: 40px;}
 
-.h3{font-size: 25px;}
+
+    .h2{font-size: 40px;
+        border-bottom: 2px solid #ccc;
+        padding: 20px;
+        width: 615px;
+        margin-left: 40px;
+     
+        
+    }
+
+    .h3{border-bottom: 2px solid #ccc;
+        padding-bottom: 20px;}
+
+ 
+
+
+
+    
+
+
+
 
 
 /*Connect with me*/  
@@ -107,7 +117,8 @@
     padding: 2%;
     width: 200px; 
     height: 150px;
-    float:left;}
+    float:left;
+margin-top: 150px;}
 
 
 
@@ -135,8 +146,26 @@
 
    
     
+.one{position: relative;
+    float: left;
+    width: 300px;
+    margin: 30px ;
+   }
 
-
+.one img{width: 100%;
+    
+    
+}
+.one h4{position: absolute;
+    bottom: 15px;
+    width: 261px;
+    padding: 20px;
+    font-weight: 200;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    }
 
 
 
