@@ -28,18 +28,20 @@
     z-index: 2;}
 
 
-    .li{padding-top: 30px;
-        font-size: 20px;
-        text-align: right;
-        text-decoration: none;
-        padding-right: 100px;}
+.li{
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 100px;}
     
-    .clearfix::after{
-        content: "";
-        clear: both;
-        display: block;}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;}
     
-    .li li+li::before{content: "";
+.li li+li::before{
+    content: "";
     border-left: 1px solid grey;
     margin-right: 20px;
     height: 15px;
@@ -59,20 +61,49 @@ a{text-decoration: none;}
 /*My Portfolio*/
 
 
-.myport{ margin-left: 150px;
+.myport{ 
+    margin-left: 150px;
     background-color: #fff;
-width: 800px;
-display: block;
-border: solid #dddddd;
-margin-bottom: 100px;
-margin-top: 150px;
-float: left;}
+    width: 800px;
+    display: block;
+    border: solid #dddddd;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    float: left;}
+
+
+    .h2{font-size: 40px;
+        border-bottom: 2px solid #ccc;
+        padding: 20px;
+        width: 615px;
+        margin-left: 40px;}
+
+
+        .one{position: relative;
+            float: left;
+            width: 300px;
+            margin: 30px ;
+           }
+        
+        .one img{width: 100%; }
 
 
 
+ .one h4{
+    position: absolute;
+    bottom: 15px;
+    width: 261px;
+    padding: 20px;
+    font-weight: 200;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    color: #4aaaa5;}
+        
           
 /*Body*/
- .body{ width: 100%;
+ .body{ 
+    width: 100%;
     background-color: rgb(240, 240, 240);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -82,30 +113,6 @@ float: left;}
     color: #4aaaa5;
     font-family :   'Georgia', Times, Times New Roman, serif !important;
     } 
-
-
-
-    .h2{font-size: 40px;
-        border-bottom: 2px solid #ccc;
-        padding: 20px;
-        width: 615px;
-        margin-left: 40px;
-     
-        
-    }
-
-    .h3{border-bottom: 2px solid #ccc;
-        padding-bottom: 20px;}
-
- 
-
-
-
-    
-
-
-
-
 
 /*Connect with me*/  
 
@@ -120,6 +127,8 @@ float: left;}
     float:left;
 margin-top: 150px;}
 
+.h3{border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;}
 
 
 .img{
@@ -146,26 +155,6 @@ margin-top: 150px;}
 
    
     
-.one{position: relative;
-    float: left;
-    width: 300px;
-    margin: 30px ;
-   }
-
-.one img{width: 100%;
-    
-    
-}
-.one h4{position: absolute;
-    bottom: 15px;
-    width: 261px;
-    padding: 20px;
-    font-weight: 200;
-    line-height: 10px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    }
 
 
 

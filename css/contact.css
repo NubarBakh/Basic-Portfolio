@@ -37,19 +37,18 @@
 
 .li{
     display: inline-block;
-    margin-right: 26px;
-}
+    margin-right: 26px;}
 
-    .a{text-decoration: none;}
-
+.a{text-decoration: none;}
 
 
-    .acp li+li::before{content: "";
-        border-left: 1px solid grey;
-        margin-right: 20px;
-        height: 15px;
-        display: inline-block;
-        }
+
+.acp li+li::before{
+    content: "";
+    border-left: 1px solid grey;
+    margin-right: 20px;
+    height: 15px;
+    display: inline-block;}
 
 
 .clearfix::after{
@@ -70,6 +69,9 @@
     height: 70%;
     background-color: white;
     float: left;}
+
+
+
 .form{margin-top: 30px;}
 
 #name, #email, #TEXTarea{
@@ -82,8 +84,7 @@
 
 .label{font-size: 20px;
     padding-top:30px;
-    padding-bottom: 30px;
-}
+    padding-bottom: 30px;}
 
 .button{ 
     background-color:#4aaaa5;
